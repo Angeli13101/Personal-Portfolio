@@ -73,20 +73,31 @@ export default function About() {
           <h1 className="h1">I’m Angelina. I live in Utah, where I am studying to be a software engineer.</h1>
           <br></br>
           <p>
-          Welcome to my portfolio, where technology meets passion and faith intertwines with innovation. As a dedicated software engineer and lifelong student, I am committed to pushing the boundaries of what's possible in the digital realm. With a relentless pursuit of knowledge and a fervent belief in the power of technology to positively impact our world, I embark on a journey of continual growth and exploration.
+            Welcome to my portfolio, where technology meets passion and faith intertwines with innovation. As a
+            dedicated software engineer and lifelong student, I am committed to pushing the boundaries of what's
+            possible in the digital realm. With a relentless pursuit of knowledge and a fervent belief in the power of
+            technology to positively impact our world, I embark on a journey of continual growth and exploration.
           </p>
           <br></br>
           <p>
-          Within these virtual pages, you'll find a showcase of my projects, each a testament to my skills, creativity, and unwavering dedication to excellence. From elegant code solutions to cutting-edge software applications, my work reflects both my technical proficiency and my relentless pursuit of excellence.
+            Within these virtual pages, you'll find a showcase of my projects, each a testament to my skills,
+            creativity, and unwavering dedication to excellence. From elegant code solutions to cutting-edge software
+            applications, my work reflects both my technical proficiency and my relentless pursuit of excellence.
           </p>
           <br></br>
           <p>
             {" "}
-            But beyond mere technical prowess, my portfolio is infused with a deeper purpose – a steadfast faith that guides my every endeavor. As a believer, I approach my work with integrity, humility, and a commitment to using my skills for the greater good. Whether it's developing tools to empower communities, creating solutions to tackle pressing societal challenges, or simply striving to make the world a better place, my faith serves as a compass, guiding me towards meaningful and impactful work.
+            But beyond mere technical prowess, my portfolio is infused with a deeper purpose – a steadfast faith that
+            guides my every endeavor. As a believer, I approach my work with integrity, humility, and a commitment to
+            using my skills for the greater good. Whether it's developing tools to empower communities, creating
+            solutions to tackle pressing societal challenges, or simply striving to make the world a better place, my
+            faith serves as a compass, guiding me towards meaningful and impactful work.
           </p>
           <br></br>
           <p>
-          So join me on this journey of innovation, learning, and faith as we navigate the ever-evolving landscape of technology together. Welcome to my portfolio – where software engineering meets studenthood, and belief fuels boundless possibility.
+            So join me on this journey of innovation, learning, and faith as we navigate the ever-evolving landscape of
+            technology together. Welcome to my portfolio – where software engineering meets studenthood, and belief
+            fuels boundless possibility.
           </p>
           <br></br>
           <br></br>
@@ -95,6 +106,7 @@ export default function About() {
         <div className="aboutColumn">
           <div className="imageStyle">
             <img src="pic.png" />
+            <br></br>
           </div>
 
           <SocialWidget links={socialLinks} />
@@ -108,6 +120,6 @@ export default function About() {
       <div className="footerBox">
         <Footer className="Footer" links={links} />
       </div>
-      </div>
+    </div>
   );
 }

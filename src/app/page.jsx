@@ -5,7 +5,7 @@ import SkillsWidget from "@/components/Widget/SkillsWidget.jsx";
 import Navebar from "@/components/menu/HomeB.jsx";
 import Footer from "@/components/menu/footer.jsx";
 import ArticleCard from "@/components/Article/Articlecards.jsx";
-import ProfileSection from "/workspaces/cs220-portfolio-group-2/src/components/Introduction/Introduction.jsx";
+import ProfileSection from "@/components/Introduction/Introduction.jsx";
 import SignupWidget from "@/components/SignupWidget/SignupWidget";
 import "./page.css";
 
@@ -49,7 +49,6 @@ const experiences = [
     startYear: 2021,
     endYear: 2020,
   },
-
 ];
 
 //Article Cards
@@ -62,7 +61,8 @@ const articles = [
       "Welcome! I'm a software engineer by day and an avid hobbyist artist by night, finding joy and relaxation in the world of drawing. Join me as I blend technical precision with artistic expression in my diverse portfolio.",
     link: "https://www.nga.gov/",
   },
-  {
+
+{
     date: "Apr 1, 2024",
     title: "Outdoor activity is the best way to feel better and do not be infron of a computer all the time!",
     content:

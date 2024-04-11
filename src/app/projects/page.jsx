@@ -118,20 +118,19 @@ export default function Projects() {
       </div>
 
       <div className="projectBody">
-        <h1 className="h1">Things I’ve made trying to put my dent in the universe.</h1>
+        <h1 className="h1">Places where I study</h1>
         <br></br>
         <p>
-          Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi Lorem ipsum dolor sit amet consectetur
-          adipiscing elit Ut et massa mi..
+        Embark on a journey through my ongoing educational pursuits, where each step forward represents a commitment to growth, learning, and the pursuit of excellence.
         </p>
         <br></br>
       </div>
 
       <ProjectCard
-        name="The Firm"
+        name="Ensign College"
         logos={"./projectPic.png"}
-        content={"Creating technology to empower civilians to explore space on their own terms."}
-        link={"https://stage.company-corp.com/platform"}
+        content={"Ensign College provides a dynamic and enriching learning environment, empowering students to excel academically and personally."}
+        link={"https://www.ensign.edu/"}
       />
 
       <div className="footerBox">

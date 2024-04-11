@@ -28,34 +28,18 @@ const items = [
     groupName: 'Workstation',
     items: [
       {
-        title: '16” MacBook Pro, M1 Max, 64GB RAM (2022)',
+        title: 'Lenovo laptop, 64GB RAM (2022)',
         description:
-          'I was using an Intel-based 16” MacBook Pro prior to this and the difference is night and day. I’ve never heard the fans turn on a single time, even under the incredibly heavy loads I put it through with our various launch simulations.',
+          'I was using an Lenovo laptop to this and the differente projects. It was a great laptop, but I needed more power for my work. So I upgraded to a new Lenovo laptop with 64GB of RAM. It’s been great so far.',
       },
       {
-        title: 'Dell UltraSharp U2717D',
-        description:
-          'I have two of these monitors and they’re great. I’ve had them for years and they’ve been rock solid.',
+        "title": "iPad Pro 12.9\", M1, 16GB RAM (2021)",
+        "description": "I added an iPad Pro 12.9\" with the M1 chip and 16GB of RAM to my arsenal in 2021. Its portability and powerful hardware have made it an indispensable tool for both productivity tasks and creative endeavors."
       },
+
       {
-        title: 'Keychron K2',
-        description:
-          'I’ve been using this keyboard for a few years now and I love it. It’s wireless, has a great feel, and the battery lasts forever.',
-      },
-      {
-        title: 'Logitech MX Master 3',
-        description:
-          'I’ve been using this mouse for a few years now and it’s great. It’s wireless, has a great feel, and the battery lasts forever.',
-      },
-      {
-        title: 'Audio-Technica ATH-M50x',
-        description:
-          'I’ve been using these headphones for a few years now and they’re great. They’re comfortable, sound good, and are built like a tank.',
-      },
-      {
-        title: 'Rain Design mStand',
-        description:
-          'I’ve been using this stand for my MacBook Pro for a few years now and it’s great. It’s sturdy, looks good, and keeps my laptop cool.',
+        "title": "Apple Pencil (2nd Generation) (2021)",
+        "description": "I added an Apple Pencil (2nd Generation) to my iPad Pro setup in 2021. It’s been great for drawing and has improved my creative workflow."
       },
     ],
   },
@@ -67,11 +51,7 @@ const items = [
         description:
           'I use VS Code for all of my development work. It’s fast, has great extensions, and is highly customizable.',
       },
-      {
-        title: 'iTerm2 + Oh My Zsh',
-        description:
-          'I use iTerm2 as my terminal and Oh My Zsh as my shell. It’s a great combination. I use the Agnoster theme with the Fira Code font.',
-      },
+
     ],
   },
   {
@@ -83,25 +63,14 @@ const items = [
           'I use Figma for all of my design work. It’s fast, has great collaboration features, and is highly customizable.',
       },
       {
-        title: 'Whimsical',
-        description:
-          'I use Whimsical for all of my wireframing and flowcharting. It’s fast, has great collaboration features, and is highly customizable.',
+        "title": "Procreate, Digital Art App (2020)",
+        "description": "I started using Procreate, a powerful digital art app, in 2020 for my creative projects. Its intuitive interface, vast array of brushes, and advanced features have made it my go-to tool for digital illustration and painting."
       },
-    ],
-  },
-  {
-    groupName: 'Productivity',
-    items: [
+
       {
-        title: 'Notion',
-        description:
-          'I use Notion for all of my note-taking and knowledge management. It’s fast, has great collaboration features, and is highly customizable.',
-      },
-      {
-        title: 'Alfred',
-        description:
-          'I use Alfred for all of my productivity needs. It’s fast, has great features, and is highly customizable.',
-      },
+        "title": "Adobe Photoshop, Image Editing Software (2016)",
+        "description": "Since 2017, I've relied on Adobe Photoshop for all my image editing needs. From retouching photos to creating intricate digital compositions, its extensive features and powerful tools have allowed me to bring my creative visions to life with precision and finesse."
+      }
     ],
   },
 ];
@@ -118,8 +87,7 @@ export default function Uses() {
           <h1 className="h1">Software I use, gadgets I love, and other things I recommend.</h1>
           <br></br>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi Lorem ipsum dolor sit amet consectetur
-            adipiscing elit Ut et massa mi..
+          Explore the tools and technologies that power my digital world in the 'Software I Use, Gadgets I Love, and Other Things I Recommend' section. From essential software applications that enhance productivity to innovative gadgets that simplify daily tasks, discover my curated selection of recommendations designed to elevate your digital experience.
           </p>
           <br></br>
           </div>

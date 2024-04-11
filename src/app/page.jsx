@@ -36,66 +36,53 @@ const links = [
 
 const experiences = [
   {
-    logo: "/slack.png",
-    organization: "Slack",
-    jobTitle: "Software Engineer",
-    startYear: 2016,
-    endYear: null,
+    logo: "/R.png",
+    organization: "BYU",
+    jobTitle: "Custodian",
+    startYear: 2021,
+    endYear: 2023,
   },
   {
-    logo: "/spotify.png",
-    organization: "Spotify",
-    jobTitle: "Software Engineer",
-    startYear: 2014,
-    endYear: 2015,
+    logo: "/L.png",
+    organization: "IP",
+    jobTitle: "Merchendiser",
+    startYear: 2021,
+    endYear: 2020,
   },
-  {
-    logo: "/audible.png",
-    organization: "Audible",
-    jobTitle: "Software Engineer",
-    startYear: 2012,
-    endYear: 2013,
-  },
-  {
-    logo: "/microsoft.png",
-    organization: "Microsoft",
-    jobTitle: "Software Engineer",
-    startYear: 2010,
-    endYear: 2011,
-  },
+
 ];
 
 //Article Cards
 
 const articles = [
   {
-    date: "Nov 15, 2021",
-    title: "Everything you need to know about React",
+    date: "Apr 1, 2024",
+    title: "Here is my favorite hobby!",
     content:
-      "The ability to build stuff in React is one of the hottest skills to have today in software engineering. There is a lot of demand for React developers among startups as well as MNCs.",
-    link: "https://medium.com/the-research-nest/everything-you-need-to-know-about-react-ab24da4275ea",
+      "Welcome! I'm a software engineer by day and an avid hobbyist artist by night, finding joy and relaxation in the world of drawing. Join me as I blend technical precision with artistic expression in my diverse portfolio.",
+    link: "https://www.nga.gov/",
   },
   {
-    date: "Sep 2, 2020",
-    title: "The Missing Introduction to React",
+    date: "Apr 1, 2024",
+    title: "Outdoor activity is the best way to feel better and do not be infron of a computer all the time!",
     content:
-      "React is the world’s most popular JavaScript framework, but it’s not cool because it’s popular. It’s popular because it’s cool. Most React introductions jump right into showing you examples of how to use React, and skip the “why”.",
-    link: "https://medium.com/javascript-scene/the-missing-introduction-to-react-62837cb2fd76",
+      "In addition to my passion for software engineering, I thrive on outdoor adventures like hiking, where I find solace and rejuvenation amidst nature's splendor. Exploring scenic trails and embracing the great outdoors is not just a pastime, but a source of inspiration and balance in my life.",
+    link: "https://austinadventures.com/destinations/north-america/trips/bryce-canyon-and-zion-family-vacation/?utm_campaign=&utm_source=bing&utm_term=bryce%20canyon%20family&utm_medium=ppc&hsa_cam=662638090&hsa_tgt=kwd-82739371885789:loc-190&hsa_acc=1276977698&hsa_mt=b&hsa_grp=1323814348095466&hsa_net=adwords&hsa_src=o&hsa_kw=bryce%20canyon%20family&hsa_ad=&hsa_ver=3&msclkid=e693b571ab9c192b5a91d369edaf2924",
   },
   {
-    date: "Mar 12, 2022",
-    title: "We can do it guys",
+    date: " Apr 1, 2024",
+    title: "Here is time for religion",
     content:
-      "React is the world’s most popular JavaScript framework, but it’s not cool because it’s popular. It’s popular because it’s cool. Most React introductions jump right into showing you examples of how to use React, and skip the “why”.",
-    link: "https://medium.com/javascript-scene/the-missing-introduction-to-react-62837cb2fd76",
+      "Beyond my professional and recreational pursuits, my faith in Jesus Christ anchors my journey, shaping my values and guiding my actions. His teachings inspire me to approach life with compassion, humility, and a desire to make a positive difference in the world around me.",
+    link: "https://www.churchofjesuschrist.org/?lang=eng",
   },
 ];
 
 // Skills that go into the Skills Widget
 const skills = [
-  { name: "HTML", proficiency: 60, icon: "html5.png" },
-  { name: "CSS", proficiency: 50, icon: "css3.png" },
-  { name: "JavaScript", proficiency: 75, icon: "javascript.png" },
+  { name: "HTML", proficiency: 45, icon: "html5.png" },
+  { name: "CSS", proficiency: 38, icon: "css3.png" },
+  { name: "JavaScript", proficiency: 48, icon: "javascript.png" },
 ];
 
 export default function Home() {

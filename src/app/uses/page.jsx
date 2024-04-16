@@ -87,7 +87,7 @@ export default function Uses() {
           <h1 className="h1">Software I use, gadgets I love, and other things I recommend.</h1>
           <br></br>
           <p>
-          Explore the tools and technologies that power my digital world in the 'Software I Use, Gadgets I Love, and Other Things I Recommend' section. From essential software applications that enhance productivity to innovative gadgets that simplify daily tasks, discover my curated selection of recommendations designed to elevate your digital experience.
+          Explore the tools and technologies that power my digital world in the Software I Use, Gadgets I Love, and Other Things I Recommend section. From essential software applications that enhance productivity to innovative gadgets that simplify daily tasks, discover my curated selection of recommendations designed to elevate your digital experience.
           </p>
           <br></br>
           </div>
